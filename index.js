@@ -6,7 +6,7 @@ import {counterApp} from './reducers'
 import {createStore} from 'redux'
 import {Provider} from 'react-redux'
 
-const Store = createStore(counterApp)
+const Store = createSto(counterApp)
 
 render(
   <Provider store={Store}>
