@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 
-export function Counter ({contador,incremento,decremento}) {
+
+
+export function Counter ({contador,incremento,decremento,contadoporcien}) {
     return (
       <div>
         <div>
@@ -9,6 +11,11 @@ export function Counter ({contador,incremento,decremento}) {
 
         <button onClick={incremento}>+</button>
         <button onClick={decremento}>-</button>
+        
+        <div>
+         Por 100: <span>{contadoporcien}</span>
+        </div>
       </div>
+      
     )
   }

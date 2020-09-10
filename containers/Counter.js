@@ -2,7 +2,7 @@ import {Counter} from '../components/Counter'
 import {connect} from 'react-redux'
 
 const NmapStateToProps = state =>{
-   return {contador: state.contador}
+   return {contador: state.contador, contadoporcien : state.contadoporcien}
 }
 
 const NmapDispatchToProps = dispatch =>{
