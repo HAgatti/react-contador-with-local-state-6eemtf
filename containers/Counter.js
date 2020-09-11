@@ -1,4 +1,5 @@
 import {Counter} from '../components/Counter'
+//conecta los componentes de REACT con la store de REDUX
 import {connect} from 'react-redux'
 
 const NmapStateToProps = state =>{
